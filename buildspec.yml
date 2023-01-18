@@ -5,7 +5,6 @@ phases:
       - echo Installing source NPM dependencies...
       - npm uninstall -g angular-cli @angular/cli
       - sudo npm cache clean --force
-      - export NODE_OPTIONS=--openssl-legacy-provider
       - npm install -g @angular/cli@11.2.11
       - npm install --save-dev @angular/cli@11.2.11
       - rm spring-petclinic-angular/package-lock.json
